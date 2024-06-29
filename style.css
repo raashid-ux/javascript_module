@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+.mynav{
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -100%;
+}
+.mynav ul{
+    display: flex;
+    list-style: none;
+}

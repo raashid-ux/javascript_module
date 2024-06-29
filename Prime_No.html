@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Javascript</h1>
+    <input type="text" id="nm1">
+    <button onclick="prime_check()">check prime</button>
+    <p id="display"></p>
+
+    <script>
+        function prime_check() {
+            var i = document.getElementById("nm1").value;
+            var j = 1;
+            count = 0;
+            while (j <= i) {
+                if (i % j == 0) {
+                    count += 1;
+                }
+                j = j + 1;
+            }
+            if (count == 2) {
+                document.write("prime");
+            }
+            else {
+                document.write("Not prime");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- WAP to find factorial any taken from USER
+WAp to sum of factorial of any number input taken form USER
+Wap to find 1!/1-2!/2+3!/3-4!/4 input taken from user
+Wap 0,1,1,2,3,5,8....series print
+LCM or HCF input taken from user
+rectangle star print
+pyramid star print
+0,1,2,4,7,11,16
+triginometry function-->
